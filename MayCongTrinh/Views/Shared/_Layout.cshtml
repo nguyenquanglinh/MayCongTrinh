@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Máy công trình
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    @*<meta name="description" content="www.maycongtrinhnhapkhau.vn - chuyên bán các dòng máy xúc lật chui hầm Xiandai, máy cào vơ siton, xe trộn bê tông tự nạp liệu trung quốc, xe trộn bê tông tự cấp liệu italia, xe trộn tự nạp liệu WRBM Trung Quôc, xe chuyên dụng, phụ tùng ô tô tải uy tín giá cả cạnh tranh. Ngoài ra chúng tôi còn bán các loại lốp xe tải 1100R20, lốp xe tải 1200R20, lốp xe mỏ, lốp tải DEEMAX, lốp triangle, lốp Milever, lốp xe tải 313">
+    <meta name="keywords" content="máy công trình, máy công trình nhập khẩu, máy xúc lật gầu nhỏ, máy xúc lật mini, máy xúc lật trung quốc, bán xe tải, bán xe chuyên dùng, máy xúc lật chui hầm xiandai, máy cào vơ siton, xe trộn bê tông tự nạp liệu italia, xe trộn bê tông tự nạp liệu trung quốc,  bán phụ tùng, máy công trình, trộn tự nạp trung quốc, xe trộn tự nạp 3.5m3, lốp xe tải 1100R20, lốp xe tải 1200R20, lốp xe mỏ, lốp tải DEEMAX, lốp triangle, lốp Milever">*@
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="index, follow">
+    @*<meta name="author" content="www.maycongtrinhnhapkhau.vn">
+    <meta name="copyright" content="Copyright (C) 2015 maycongtrinhnhapkhau.vn">*@
+    <meta name="revisit-after" content="1 day">
+    <meta name="document-rating" content="General">
+    <meta name="document-distribution" content="Global">
+    <meta name="distribution" content="Global">
+    <meta name="area" content="Network Solution">
+    <meta name="placename" content="vietnam">
+    <meta name="resource-type" content="Document">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="Googlebot" content="index">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.2)">
+    @*<meta name="classification" content="www.maycongtrinhnhapkhau.vn, Vietnam">*@
+    @*<link rel="canonical" href="https://maycongtrinhnhapkhau.vn/">*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+
+@*<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    
+</head>*@
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
